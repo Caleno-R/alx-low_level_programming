@@ -1,6 +1,2 @@
-<<<<<<< HEAD
-#!\s*bin/bash
-=======
 #!/bin/bash
->>>>>>> 51fab7c5f1e01b126615a273b4b5fe30413c8fdd
 gcc -E $CFILE -o c
