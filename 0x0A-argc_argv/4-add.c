@@ -17,7 +17,7 @@ int check_num(char *str)
 unsigned int count;
 
 count = 0;
-while (count < strlen(str)) 
+while (count < strlen(str)) /*count string*/
 
 {
 if  (!isdigit(str[count])) /*checking if the the str there are digits*/
@@ -40,7 +40,7 @@ return (1);
 
 int main(int argc, char *argv[])
 {
-
+/*Declaring variables*/
 int count;
 int str_to_int;
 int sum = 0;
@@ -65,7 +65,7 @@ return (1);
 count++;
 }
 
-printf("%d\n", sum); 
+printf("%d\n", sum); /*print sum*/
 
 return (0);
 }
